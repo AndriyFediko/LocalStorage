@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Montserrat:wght@500&family=Poppins:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="wrap">
+        <h1 class="text titleText">Text</h1>
+        <p class="text titlePharagraf">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga explicabo culpa corrupti ab repellat excepturi ipsam voluptates. Impedit ex obcaecati tempore nisi explicabo iusto perspiciatis. Vero ipsum mollitia, nobis nulla cumque veniam eius eligendi? Temporibus mollitia at ea! Quod iste magni corrupti ducimus distinctio dolorum quaerat excepturi molestias laboriosam vero nihil culpa quis, laborum neque nulla mollitia perspiciatis officiis maiores minima! Repudiandae facere, natus sequi, fugiat nulla fuga odit reiciendis dignissimos officiis consequatur sunt eum tempore et a blanditiis maxime consequuntur eius adipisci quis esse quia soluta suscipit obcaecati tenetur! Voluptas sunt, consequatur dignissimos cum perferendis, iure exercitationem quam alias dolores magnam placeat blanditiis facilis quae saepe! Iste totam nam pariatur cum harum incidunt omnis veniam molestias qui ipsum laboriosam explicabo eveniet perspiciatis corporis soluta vitae suscipit, ea velit odit reprehenderit dolorem! Quidem debitis harum a sit in nesciunt nihil veritatis, veniam voluptate fugiat iste. Labore distinctio asperiores laborum ad. Aliquid harum totam possimus facere. Quisquam natus, minus voluptatibus expedita dignissimos ducimus, voluptatum repellat praesentium officia eligendi, labore totam voluptatem nisi eos eveniet ratione numquam. Laborum nulla quaerat minima ipsum doloribus eveniet perspiciatis ratione, delectus veniam quod cupiditate, facere voluptatem necessitatibus ipsa. Accusamus molestiae sed minus perferendis ducimus, aliquid minima. Commodi officia vel exercitationem. Iusto, sequi consequatur beatae ut odit aut numquam maiores veniam! Inventore minus placeat laboriosam libero voluptatem quae doloribus in veritatis at deleniti odio vitae autem hic, vero blanditiis animi. Fugit unde maiores repellendus temporibus! Quia quis hic voluptatem dolorum recusandae natus possimus sequi, esse nostrum autem, dignissimos dolor laborum dicta sunt expedita voluptatibus nulla architecto, provident et. Exercitationem, numquam quas id eos sed necessitatibus architecto aliquid quis placeat suscipit accusantium reiciendis laudantium cum consequatur aspernatur, est dicta molestiae nesciunt repellat, saepe odit cumque. Error, sed nam! Ipsa quisquam consequatur nemo ab vitae optio voluptatibus ipsam, officiis sint nobis qui perferendis atque temporibus at beatae explicabo distinctio a autem et ducimus odit corrupti. Ullam quisquam quos animi recusandae itaque iure eaque nulla laborum laboriosam deleniti ut voluptas ea facilis corporis consequuntur, ab consectetur temporibus officiis aperiam est voluptates illum, tempora error? Architecto optio similique expedita dolor. Incidunt minus dolorem ex quibusdam, reprehenderit ipsam ratione animi quis praesentium tempore totam soluta est provident odio alias dicta exercitationem cupiditate. Possimus, nemo vel! Veniam dolore, inventore at esse ea laborum neque, eius optio blanditiis, vero hic ut laboriosam! Dicta deserunt repudiandae mollitia quae sequi quos cum, id fugit veritatis unde quasi architecto impedit repellendus illo eveniet alias cupiditate ipsum dolor explicabo vero fuga ut ullam. Totam quae, eum mollitia ipsum laudantium incidunt facere impedit vel. Nesciunt accusantium necessitatibus officia voluptate beatae maiores, aspernatur eos, natus dolor sapiente quibusdam dolores libero voluptas deleniti minima neque ut id. Dolor, eius? Debitis, accusantium autem, suscipit animi aliquam ex commodi voluptatum, soluta placeat possimus maiores. Voluptate sint doloremque, sit vitae exercitationem cum fugit facere, a quia ab autem corporis culpa laboriosam repellat optio illo alias saepe perspiciatis? Accusantium consectetur natus provident consequatur a alias, distinctio facere fugiat labore quis veritatis nulla libero impedit numquam.</p>
+    </div>
+    <div class="bgMask">
+        <div class="settinsPage">
+            <h2>Settins</h2>
+            <img id="closeSettins" src="./img/dagger.png" alt="dagger" class="dagger" id="dagger">
+            <div class="settins__content">
+                <div class="lightContainer">
+                    <img src="./img/light-bulb.png" alt="lamp" class="lightContainer__Lamp">
+                    <div class="lightContainer__Indicator">
+                        <div class="lightStatus lightStatus__active"></div>
+                    </div>
+                    <span class="lightStatus__text">ON</span>
+                </div>
+                <div class="border"></div>
+                <div class="textSizeContainer">
+                    <span class="titleSpan">Text size</span>
+                    <span class="InpVal" id="textSize">16px</span>
+                    <input id="sizeInp" value="1" type="range" min="0.6" max="2" step="0.2">
+                </div>
+                <div class="border"></div>
+                <div class="textColorContainer">
+                    <span class="titleSpan">Text color</span>
+                    <span class="InpVal" id="textColor">#333333</span>
+                    <div class="inputBackground">
+                        <input class="colorInp" type="color">
+                    </div>
+                </div>
+                <div class="border"></div>
+                <div class="textFontContainer">
+                    <span class="titleSpan">Text font</span>
+                    <div class="dropDownVal" id="dropDown">
+                        <span id="fontVal">Poppins</span>
+                        <img src="./img/arrow.png" alt="arrow">
+                    </div>
+                    <div class="dropDownContent">
+                        <ul>
+                            <li>Aurore</li>
+                            <li>Monts.</li>
+                            <li>Roboto</li>
+                            <li>Poppins</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

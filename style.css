@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+.wrap{
+    text-align: center;
+    padding: 20px 40px;
+    min-height: 100vh;
+    transition: 0.3s;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+input{
+    border: none;
+    outline: none;
+}
+p{
+    margin-top: 50px;
+    color: #333;
+    transition: 0.3s;
+}
+.text{
+    transition: 0.3s;
+}
+.settinsPage{
+    width: 600px;
+    height: 400px;
+    background-color: #333;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #111;
+    color: white;
+    text-align: center;
+    padding: 20px 60px;
+}
+.bgMask{
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(1px);
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+h2{
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   font-size: 1.6em;
+}
+.settins__content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 0 0 0;
+}
+.dagger{
+    width: 18px;
+    position: absolute;
+    margin-left: 258px;
+    margin-top: -37px;
+    cursor: pointer;
+}
+.lightContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.lightContainer__Lamp {
+    width: 45px;
+    transition: 0.3s;
+}
+
+.lightContainer__Indicator {
+    width: 50px;
+    height: 24px;
+    padding: 2px;
+    border-radius: 20px;
+    border: 2px solid #888;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.lightStatus {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.3s;
+    position: relative;
+    left: 0px;
+    transition: 0.3s;
+    background-color: red;
+}
+
+.lightStatus__active {
+    left: 26px;
+    background-color: chartreuse;
+}
+
+.lightStatus__text {
+    font-size: 0.8em;
+    margin-top: 5px;
+    color: #aaa;
+}
+.textSizeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 12px;
+}
+.border{
+    width: 3px;
+    height: 102px;
+    border-radius: 10px;
+    background-color: #888;
+}
+.InpVal{
+    color: #eee; 
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+#sizeInp{
+    width: 110px;
+}
+.textColorContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleSpan{
+    font-size: 1.2em;
+    letter-spacing: 0.5px;
+}
+.dropDownVal{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.dropDownVal img{
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+}
+.dropDownContent{
+    height: 0px;
+    font-size: 0.9em;
+    color: rgb(199, 199, 199);
+    transition: 0.3s;
+    position: absolute;
+    overflow: hidden;
+}
+.dropDownContent ul li{
+    padding: 3px 0;
+}
+.textFontContainer{
+    padding-bottom: 13px;
+}
+.inputBackground{
+    background-image: url(./img/paint-brush.png);
+    background-size: cover;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+.colorInp{
+    opacity: 0;
+    width: 31px;
+    cursor: pointer;
+}
+.burger{
+    width: 33px;
+    height: 20px;
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+}
+.burger div{
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    border-radius: 3px;
+    transition: 0.3s;
+}
